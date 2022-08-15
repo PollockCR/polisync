@@ -35,15 +35,22 @@ html {
 .tweak-product-basic-item-gallery-design-stacked .ProductItem-details {
   padding-top: 0;
 }
+
 .ProductItem-additional {
   margin: 30px 0 !important;
 }
+
 @media screen and (max-width: 767px) {
   .ProductItem-gallery {
     max-height: 24rem;
     margin-bottom: 1.5rem;
   }
+
+  .ProductItem-additional .ProductItem-details-excerpt {
+    margin: 0px !important;
+  }
 }
+
 @media screen and (min-width: 768px) {
   .product-tags-table {
     margin: 0 auto;
